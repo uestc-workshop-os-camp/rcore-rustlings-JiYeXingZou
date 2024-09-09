@@ -11,5 +11,6 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num
 }
+//分号 后面如果没有东西， 返回的是一个(),所以需要移除这个分号
