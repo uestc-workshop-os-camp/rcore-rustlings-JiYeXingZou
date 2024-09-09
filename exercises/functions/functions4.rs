@@ -8,13 +8,15 @@
 // Execute `rustlings hint functions4` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+//
 
 fn main() {
     let original_price = 51;
     println!("Your sale price is {}", sale_price(original_price));
 }
 //思考: 表达式本身是具有返回值的
+//为什么rust没有三元操作符?
+//是否可以 let a = if {......}
 fn sale_price(price: i32) {
     if is_even(price) {
         price - 10
