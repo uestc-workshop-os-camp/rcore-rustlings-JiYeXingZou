@@ -3,7 +3,7 @@
 // Execute `rustlings hint move_semantics1` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE 
+//
 //栈内存  vs  堆内存
 
 //栈 -> 编译期识别类型的大小，默认分配的空间
