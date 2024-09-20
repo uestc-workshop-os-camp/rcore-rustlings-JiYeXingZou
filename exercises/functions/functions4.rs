@@ -17,7 +17,7 @@ fn main() {
 //思考: 表达式本身是具有返回值的
 //为什么rust没有三元操作符?
 //是否可以 let a = if {......}
-fn sale_price(price: i32) {
+fn sale_price(price: i32) -> i32{
     if is_even(price) {
         price - 10
     } else {
