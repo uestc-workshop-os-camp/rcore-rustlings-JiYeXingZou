@@ -62,7 +62,7 @@ mod tests {
     #[test]
     fn test_given_fruits_are_not_modified() {
         let mut basket = get_fruit_basket();
-        fruit_basket(&mut basket);
+        fruit_basket(&mut basket); 
         assert_eq!(*basket.get(&Fruit::Apple).unwrap(), 4);
         assert_eq!(*basket.get(&Fruit::Mango).unwrap(), 2);
         assert_eq!(*basket.get(&Fruit::Lychee).unwrap(), 5);
